@@ -9,15 +9,7 @@
     $bio = $_GET['biographie'];
     $lang =$_GET['lang'];
     
-    if(isset($_GET['submit'])) {
-   if(!empty($_GET['lang'])) {
-      foreach($_GET['lang'] as $lang) {
-         echo $fruit."<br>";
-      }
-   } else {
-      echo "Aucun fruit sélectionné";
-   }
-}
+   
 ?>
 
 <!DOCTYPE html>
@@ -135,9 +127,10 @@
                 <section>
                     <h4>Langues</h4>
                     <ul>
-                        <li>Anglais</li>
-                        <li>Français</li>
-                        <li>Arabe</li>
+                    <?php  foreach ($_GET['lang'] as $item) { ?>
+                    
+                    <li><?php '$item' ?> </li>
+                
                     </ul>
                 </section>
             </section>
