@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <title>Formulaire CV</title>
+</head>
+
+<body>
+    <main>
+        <section class="info">
+            <h1>INFORMATIONS</h1>
+            <form>
+                <label for="nom">Nom :</label><br>
+    		    <input type="text" id="nom" name="nom"><br>
+    
+    		    <label for="prenom">Prénom :</label><br>
+    		    <input type="text" id="prenom" name="prenom"><br>
+    		    
+    		    <label for="mail">E-mail :</label><br>
+    		    <input type="mail" id="mail" name="mail"><br>
+    		    
+    		    <label for="telephone">Téléphone :</label><br>
+    		    <input type="tel" id="telephone" name="telephone"><br>
+    		    
+    		    <label for="linkedin">LinkedIn :</label><br>
+    		    <input type="text" id="linkedin" name="linkedin"><br>
+    		    
+    		    <label for="github">GitHub :</label><br>
+    		    <input type="text" id="linkedin" name="linkedin"><br>
+    
+    		    <label for="bio">Biographie :</label><br>
+    		    <textarea id="bio" name="commentaires" rows="5" cols="50"></textarea><br>
+    		    
+    		     <label for="loisir">Loisir 1 :</label><br>
+    		    <input type="text" class="loisir" name="loisir1"><br>
+    		    
+    		    <label for="loisir">Loisir 2 :</label><br>
+    		    <input type="text" class="loisir" name="loisir2"><br>
+    		    
+    		    <label for="loisir">Loisir 3 :</label><br>
+    		    <input type="text" class="loisir" name="loisir3"><br>
+    		    
+    		    <label for="loisir">Loisir 4 :</label><br>
+    		    <input type="text" class="loisir" name="loisir4"><br>
+            </form>
+            
+             <h2>Langues</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="lang-fr" name="lang-fr" value="lang-fr">
+                    <label for="lang-fr">Français</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-en" name="lang-en" value="lang-en">
+                    <label for="lang-en">Anglais</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-ar" name="lang-ar" value="lang-ar">
+                    <label for="lang-ar">Arabe</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-br" name="lang-br" value="lang-br">
+                    <label for="lang-br">Breton</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-es" name="lang-es" value="lang-es">
+                    <label for="lang-es">Espagnol</label>
+                </li>
+            </ul>
+            
+        </section>
+        
+        <section class="competences">
+            <h1>COMPETENCES</h1>
+            <H2>Langages de Programmation</H2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="lang-html" name="l-html" value="lang-html">
+                    <label for="l-html">HTML</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-css" name="l" value="lang-css">
+                    <label for="lang-css">CSS</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-js" name="lang-ar" value="lang-js">
+                    <label for="lang-js">JavaScript</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-php" name="lang-php" value="lang-php">
+                    <label for="lang-php">PHP</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lang-sql" name="lang-sql" value="lang-sql">
+                    <label for="lang-sql">SQL</label>
+                </li>
+            </ul>
+            
+            <h2>Frameworks & Librairies</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="fl-sass" name="fl-sass" value="fl-sass">
+                    <label for="fl-sass">Sass</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="fl-boot" name="fl-boot" value="fl-boot">
+                    <label for="fl-boot">Bootstrap</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="fl-sym" name="lang-ar" value="fl-sym">
+                    <label for="lang-js">Symfony</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="fl-lar" name="lang-php" value="fl-lar">
+                    <label for="fl-lar">Laravel</label>
+                </li>
+            </ul>
+            
+             <h2>Logiciels</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="soft-ps" name="soft-ps" value="soft-ps">
+                    <label for="soft-ps">Photoshop</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="soft-ai" name="l" value="soft-ai">
+                    <label for="soft-ai">Illustrator</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="soft-xd" name="soft-xd" value="soft-xd">
+                    <label for="soft-xd">XD</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="soft-fi" name="soft-fi" value="soft-fi">
+                    <label for="soft-fi">Figma</label>
+                </li>
+            </ul>
+    
+           <h2>Couleur du CV</h2>
+            <label for="couleur"></label>
+            <select>
+                <option value="Bleu">Bleu</option>
+                <option value="Rouge">Rouge</option>
+            </select>
+        </section>
+        <div>
+            <button>ENVOYER</button>
+        </div>
+        
+    </main>
+</body>
+
+</html>
